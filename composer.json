@@ -1,0 +1,19 @@
+{
+    "name": "findyourcode/hello",
+    "description": "test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuzzyy",
+            "email": "fuzzyy@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Hello\\":"src/"
+        }
+    }
+}
